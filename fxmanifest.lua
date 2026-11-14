@@ -11,7 +11,7 @@ lua54 'yes'
 -- is downloaded again for that pack alone (whip_media_clothing_male/fxmanifest.lua says why). The small picture
 -- categories share this one. whip_core's shared/assets_index.lua (whip_core/dev/assets_index.mjs) says which pack
 -- holds what.
-whip_media_pack 'yes'   -- how whip_core's dev tools find the packs, wherever they are in [whip]
+whip_media_pack 'yes'   -- how whip_core's dev tools find the packs, wherever they are in the resources folder
 
 -- Saves pictures for whip_core (the Vehicle Snapshot tool): the same file in every media pack. Server only.
 server_script 'server.lua'
