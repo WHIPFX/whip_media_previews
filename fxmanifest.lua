@@ -5,6 +5,7 @@ name 'whip_media_previews'
 author 'Whippy'
 description 'whip\'s vehicle, NPC and tattoo pictures, and the emote menu\'s preview videos.'
 version '1.0.0'
+whip_updates 'WHIPFX/whip_media_previews'   -- whip_core checks this repository's releases for a newer version
 lua54 'yes'
 
 -- A MEDIA PACK: whip's pictures, videos and map live apart from whip_core, one pack per category, so a change to one
